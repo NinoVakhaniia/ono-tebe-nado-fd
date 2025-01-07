@@ -1,4 +1,4 @@
-/* место для вашего кода */
+
 
 .header {
   padding: 93.16px 50px 95.19px 50px;
@@ -58,7 +58,7 @@
 .text-center {
   text-align: center;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .text-right-align {
@@ -67,7 +67,8 @@
 
 .text-right {
   text-align: right;
-  margin-top: 25px;
+  margin-top: 21px;
+  margin-right: 4px;
 }
 
 .accent-span {
@@ -82,6 +83,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  word-spacing: 18px;
 }
 
 .button {
@@ -136,7 +138,7 @@
   justify-self: end;
 }
 
-.lots__card-list-item {
+.card {
   padding: 48px 40px;
   width: 334px;
   min-height: 596px;
@@ -145,6 +147,10 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .lots-garden {
@@ -164,24 +170,17 @@
   justify-content: center;
   gap: 25px;
   color: #fff;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   flex-wrap: wrap;
-}
-
-.height {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .card__title {
   font-weight: 700;
-  text-decoration: underline;
   font-size: 22px;
   line-height: 26.4px;
   position: relative;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .card__text {
@@ -189,6 +188,8 @@
   font-weight: 400;
   line-height: 24px;
   position: relative;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .lots__heading {
@@ -202,6 +203,10 @@
 
 .lots__card-list-item {
   position: relative;
+}
+
+.card-link {
+  text-decoration: none;
 }
 
 .lots__look-more-link {
@@ -258,7 +263,7 @@
 }
 
 .about__text_second_line {
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .footer-nav {
